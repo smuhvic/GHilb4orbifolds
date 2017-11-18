@@ -1,0 +1,51 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1.5in]{geometry}  % set the margins to 1in on all sides
+\usepackage{graphicx}              % to include figures
+\usepackage{amsmath}               % great math stuff
+\usepackage{amsfonts}              % for blackboard bold, etc
+\usepackage{amsthm}                % better theorem environments
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{tikz-cd}
+\usepackage{caption}
+\usepackage{setspace}
+\usepackage{tikz}
+\usepackage{listings}
+\usepackage{verbatim}
+\usepackage{enumerate}
+\usepackage{courier}
+\usepackage{my}
+\usepackage{hyperref}
+\usepackage{mathtools}
+\usepackage{comment}
+\usepackage{minted}
+
+\graphicspath{ {codes/}}
+
+\definecolor{dandelion}{rgb}{1,0.75,0}
+\definecolor{orang}{rgb}{1,0.6,0}
+
+\begin{document}
+
+
+%\nocite{*}
+
+\title{Documentation for GHilb4orbifolds script}
+
+\author{Sara Muhvi\'{c} \\ University of Warwick}
+
+\maketitle
+
+\tableofcontents{}
+
+\renewcommand{\thepart}{\Alph{part}}%
+
+
+\newpage
+\input code.tex
+
+\newpage
+\bibliographystyle{plain}
+\bibliography{docubib} 
+
+\end{document}
